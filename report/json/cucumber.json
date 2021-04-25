@@ -1,0 +1,182 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1803568688,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Nijat will say something on the terminal",
+        "description": "",
+        "id": "trying-to-see-if-cucumber-works;nijat-will-say-something-on-the-terminal",
+        "after": [
+          {
+            "result": {
+              "duration": 82836843,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79812242,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Nijat goes to the terminal",
+            "match": {
+              "location": "DemoSteps.nijat_goes_to_the_terminal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45491,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Nijat says HELLO MY STUDENTS",
+            "match": {
+              "location": "DemoSteps.Nijat_says_HELLO_MY_STUDENTS()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44879,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "we should see that in terminal few times",
+            "match": {
+              "location": "DemoSteps.we_should_see_that_in_terminal_few_times()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Trying to see if cucumber works",
+    "description": "",
+    "id": "trying-to-see-if-cucumber-works",
+    "keyword": "Feature",
+    "uri": "demo.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1432566805,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User can login to Trello with valid credentials",
+        "description": "",
+        "id": "trello-login-functionality;user-can-login-to-trello-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 156781897,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1731151527,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User goes to the Trello home page",
+            "match": {
+              "location": "TrelloLoginSteps.user_goes_to_the_Trello_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63954006,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on login link",
+            "match": {
+              "location": "TrelloLoginSteps.user_clicks_on_login_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1210298789,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on login page",
+            "match": {
+              "location": "TrelloLoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205139253,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logins with valid credentials",
+            "match": {
+              "location": "TrelloLoginSteps.user_logins_with_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3037180804,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be able to see Trello boards page",
+            "match": {
+              "location": "TrelloLoginSteps.user_should_be_able_to_see_Trello_boards_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Trello login functionality",
+    "description": "",
+    "id": "trello-login-functionality",
+    "keyword": "Feature",
+    "uri": "trello_login.feature"
+  }
+]
